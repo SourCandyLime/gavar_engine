@@ -4,3 +4,8 @@ version = "0.0.1"
 edition = "2024"
 
 [dependencies]
+winit = "0.30"
+
+[lints.rust]
+unused_imports = "allow"
+dead_code = "allow"
